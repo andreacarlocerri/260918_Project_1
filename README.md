@@ -50,9 +50,9 @@ Nice! You guessed a letter!
 
 1. Clone the repository:
 ```bash
-   git clone <repository-url>
+   git clone https://github.com/andreacarlocerri/260918_Project_1.git
 ```
-2. Open `main.ipynb` in Jupyter.
+2. Open `Hangman.ipynb` in Jupyter.
 3. Select **Kernel → Restart Kernel and Run All Cells**.
 4. Type your guesses in the input box below the last cell.
 
@@ -110,7 +110,7 @@ len(set(game_state["secret_word"]) - game_state["guessed_letters"]) == 0
 
 ```
 .
-├── main.ipynb    # the complete game
+├── Hangman.ipynb # the complete game
 └── README.md     # this file
 ```
 
